@@ -1,4 +1,4 @@
-# Repository template UI Kit Italia
+# UI Kit per il modello FSE - :construction: Lavori in corso
 
 [![License](https://img.shields.io/github/license/italia/design-ui-kit.svg)](https://github.com/italia/design-ui-kit/blob/main/LICENSE)
 [![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
