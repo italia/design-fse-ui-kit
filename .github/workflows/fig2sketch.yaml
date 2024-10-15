@@ -1,0 +1,33 @@
+name: Release design-ui-kit
+on:
+  workflow_dispatch:
+  push:
+    tags:
+    - '*'
+
+jobs:
+  fig2sketch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Fixup git permissions
+        shell: bash
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - uses: italia/figma-to-sketch-action@v1.0.0 # https://github.com/italia/figma-to-sketch-action
+        with:
+          files: 'file-da-sostituire.fig' # File di input .fig (Figma) separati da `|`
+          output_files: 'file-da-sostituire.sketch' # File di output .sketch (Sketch) risultanti separati da `|`
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: '*.fig,*.sketch'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allowUpdates: true
+          makeLatest: true
+          omitBodyDuringUpdate: true
