@@ -1,4 +1,4 @@
-# UI Kit per il modello FSE - :construction: Lavori in corso
+# Fascicolo Sanitario Elettronico – prototipi
 
 [![License](https://img.shields.io/github/license/italia/design-ui-kit.svg)](https://github.com/italia/design-ui-kit/blob/main/LICENSE)
 [![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
@@ -6,33 +6,40 @@
 
 _🇬🇧 [English version](README.EN.md)_
 
-## ⚠️ Come utilizzare questo template
+## Descrizione
 
-La seguente sezione deve essere rimossa. 
-Per utilizzare questo template occorre:
+Questo repository contiene i file Figma e Sketch dei **prototipi** del Fascicolo Sanitario Elettronico, con relativo **UI Kit del Fascicolo Sanitario Elettronico** realizzato per la progettazione delle schermate.
 
-- Sostituire ogni riferimento nel repository di `design-ui-kit` con il nome GitHub di questo repository.
-- Caricare i file Figma o nella root del progetto o in una cartella.
-- Specificare nella action `.github/workflows/fig2sketch.yaml` la lista dei file Figma da convertire seguendo le istruzioni di [Figma to Sketch action](https://github.com/italia/figma-to-sketch-action).
-- Rimuovere questa sezione dal README
-- Modificare il titolo e nelle successive sezioni (compreso il README in lingua inglese) le descrizioni riguardanti il progetto.
+Il repository contiene le seguenti risorse:
+- UI Kit del Fascicolo Sanitario Elettronico (`UI-Kit-FSE`);
+- Prototipo 0.0.0 – Focus sezioni Essenziale (`FSE-prototipo-000`);
+- Prototipo 5.1.1 – Servizio per la visualizzazione delle deleghe (`FSE-prototipo-511`);
+- Prototipo 5.2.1 – Gestione dei consensi (`prototipo-521`).
 
---- 
+Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e
+funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
 
-**Descrizione di questa risorsa di template**
-
-Attenzione: alcune funzionalità presenti nei file Figma (.fig) potrebbero non 
-essere presenti e/o non corrette nei file .sketch convertiti utilizzando la 
-versione più recente di [fig2sketch](https://github.com/sketch-hq/fig2sketch). 
-È consigliato pertanto controllare sempre il risultato della conversione 
-e dichiarare lo stato delle risorse e questa eventualità agli utenti.
+Attenzione: alcune funzionalità presenti nei file Figma (.fig) potrebbero non essere presenti e/o non corrette
+nei file .sketch convertiti utilizzando la versione più recente di [fig2sketch](https://github.com/sketch-hq/fig2sketch). È consigliato pertanto controllare
+sempre il risultato della conversione e dichiarare lo stato delle risorse e questa eventualità agli utenti.
 
 ## Come iniziare
 
-Puoi trovare i file Figma e i file Sketch derivati nell'ultima release 
-del progetto qui su GitHub.
+Scarica l'ultima versione disponibile nella pagina [Releases](https://github.com/italia/design-fse-ui-kit/releases). Ogni rilascio include i file sia per Figma che per
+Sketch.
 
-## Come contribuire 💙
+Una volta scaricati, potrai aprire i file con i rispettivi programmi di progettazione e iniziare a esplorare le
+risorse.
 
-Descrizione di come contribuire (link alle issue, risorse ecc..)
+### Utilizzo delle librerie
 
+Il prototipo utilizza componenti collegati a **UI Kit del Fascicolo Sanitario Elettronico** (`UI-Kit-FSE`) e alla versione 3.6.3 di [UI Kit Italia](https://github.com/italia/design-ui-kit), che include icone, tipografia, colori e ombre applicati.
+
+**Per utilizzare le librerie in Figma:**
+1. Assicurati di disporre di un account **Figma Pro** o superiore, necessario per collegare le librerie.
+2. Aggiungi i file `UI-Kit-FSE` e UI Kit Italia come librerie seguendo la guida ufficiale:
+  - [Aggiungere una libreria in Figma](https://help.figma.com/hc/en-us/articles/1500008731201-Enable-or-disable-a-library-in-a-design-file)
+
+**Nota per gli account gratuiti:**
+- Con un account gratuito, non è possibile collegare le librerie direttamente. Tuttavia, puoi accedere
+agli elementi aprendo i file `UI-Kit-FSE` e UI Kit Italia e copiando manualmente i componenti nel tuo progetto.
