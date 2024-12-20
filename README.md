@@ -6,7 +6,7 @@
 
 ## Descrizione
 
-Questo repository contiene i file Figma e Sketch dei **prototipi** del Fascicolo Sanitario Elettronico, con relativo **UI Kit del Fascicolo Sanitario Elettronico** realizzato per la progettazione delle schermate.
+Questo repository contiene i file dei **prototipi** del Fascicolo Sanitario Elettronico, con relativo **UI Kit del Fascicolo Sanitario Elettronico** realizzato per la progettazione delle schermate.
 
 Il repository contiene le seguenti risorse:
 - **UI Kit del Fascicolo Sanitario Elettronico** (`FSE-Libreria-componenti`);
