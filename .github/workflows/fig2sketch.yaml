@@ -22,8 +22,8 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - uses: italia/figma-to-sketch-action@v1.0.0 # https://github.com/italia/figma-to-sketch-action
         with:
-          files: 'FSE-Prototipo-000.fig|FSE-Prototipo-511.fig|FSE-Prototipo-521.fig|UI-Kit-FSE.fig' # File di input .fig (Figma) separati da `|`
-          output_files: 'FSE-Prototipo-000.sketch|FSE-Prototipo-511.sketch|FSE-Prototipo-521.sketch|UI-Kit-FSE.sketch' # File di output .sketch (Sketch) risultanti separati da `|`
+          files: 'FSE-Prototipo-di-base.fig|FSE-Gestione-dei-consensi.fig|FSE-Servizio-per-la-visualizzazione-delle-deleghe.fig|FSE-Libreria-componenti.fig' # File di input .fig (Figma) separati da `|`
+          output_files: 'FSE-Prototipo-di-base.sketch|FSE-Gestione-dei-consensi.sketch|FSE-Servizio-per-la-visualizzazione-delle-deleghe.sketch|FSE-Libreria-componenti.sketch' # File di output .sketch (Sketch) risultanti separati da `|`
       - uses: ncipollo/release-action@v1
         with:
           artifacts: '*.fig,*.sketch'
