@@ -41,7 +41,7 @@ I prototipi utilizzano componenti collegati a **UI Kit del Fascicolo Sanitario E
 5. In `FSE-Libreria-componenti`, effettua lo "swap" dei componenti e stili mancanti ("Missing libraries") con quelli di `UI-Kit-Italia` seguendo la guida ufficiale: 
   - [Swap di una libreria su Figma](https://help.figma.com/hc/en-us/articles/4404856784663-Swap-style-and-component-libraries)
 6. Pubblica gli aggiornmenti della libreria `FSE-Libreria-componenti`.
-7. Dentro al file di ciascun prototipo, seguendo la stessa procedura, effettua lo swap dei componenti e stili mancandi con quelli di `FSE-Libreria-componenti` e `UI-Kit-Italia`.
+7. Dentro al file di ciascun prototipo, seguendo la stessa procedura, effettua lo swap dei componenti e stili mancanti con quelli di `FSE-Libreria-componenti` e `UI-Kit-Italia`.
 8. Aggiungi i file `FSE-Libreria-componenti` e `UI Kit Italia` come librerie seguendo la guida ufficiale:
   - [Aggiungere una libreria in Figma](https://help.figma.com/hc/en-us/articles/1500008731201-Enable-or-disable-a-library-in-a-design-file)
 
