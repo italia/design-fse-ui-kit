@@ -4,17 +4,15 @@
 [![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 
-_🇬🇧 [English version](README.EN.md)_
-
 ## Descrizione
 
 Questo repository contiene i file Figma e Sketch dei **prototipi** del Fascicolo Sanitario Elettronico, con relativo **UI Kit del Fascicolo Sanitario Elettronico** realizzato per la progettazione delle schermate.
 
 Il repository contiene le seguenti risorse:
-- UI Kit del Fascicolo Sanitario Elettronico (`FSE-Libreria-componenti`);
-- FSE - Prototipo di base (`FSE-Prototipo-di-base`);
-- FSE - Servizio per la visualizzazione delle deleghe (`FSE-Servizio-per-la-visualizzazione-delle-deleghe`);
-- FSE - Gestione dei consensi (`FSE-Gestione-dei-consensi`).
+- **UI Kit del Fascicolo Sanitario Elettronico** (`FSE-Libreria-componenti`);
+- **FSE - Prototipo di base** (`FSE-Prototipo-di-base`);
+- **FSE - Servizio per la visualizzazione delle deleghe** (`FSE-Servizio-per-la-visualizzazione-delle-deleghe`);
+- **FSE - Gestione dei consensi** (`FSE-Gestione-dei-consensi`).
 
 Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e
 funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
