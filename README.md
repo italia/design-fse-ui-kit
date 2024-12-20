@@ -4,8 +4,6 @@
 [![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 
-_🇬🇧 [English version](README.EN.md)_
-
 ## Descrizione
 
 Questo repository contiene i file Figma e Sketch dei **prototipi** del Fascicolo Sanitario Elettronico, con relativo **UI Kit del Fascicolo Sanitario Elettronico** realizzato per la progettazione delle schermate.
