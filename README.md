@@ -13,7 +13,7 @@ Il repository contiene le seguenti risorse:
 - **FSE - Prototipo di base** (`FSE-Prototipo-di-base`);
 - **FSE - Gestione dei consensi** (`FSE-Gestione-dei-consensi`);
 - **FSE - Servizio di gestione richieste** (`FSE-Servizio-di-gestione-richieste`);
-- **FSE - Servizio di visualizzazione campagne di screening e prevenzione (`FSE-Campagne-di-screening-e-prevenzione`);
+- **FSE - Servizio di visualizzazione campagne di screening e prevenzione** (`FSE-Campagne-di-screening-e-prevenzione`);
 - **FSE - Servizio la mia storia clinica** (`FSE-Servizio-la-mia-storia-clinica`);
 - **FSE - Servizio per la visualizzazione delle deleghe** (`FSE-Servizio-per-la-visualizzazione-delle-deleghe`).
 
