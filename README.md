@@ -11,14 +11,16 @@ Questo repository contiene i file dei **prototipi** del Fascicolo Sanitario Elet
 Il repository contiene le seguenti risorse:
 - **UI Kit del Fascicolo Sanitario Elettronico** (`FSE-Libreria-componenti`);
 - **FSE - Prototipo di base** (`FSE-Prototipo-di-base`);
-- **FSE - Servizio per la visualizzazione delle deleghe** (`FSE-Servizio-per-la-visualizzazione-delle-deleghe`);
-- **FSE - Gestione dei consensi** (`FSE-Gestione-dei-consensi`).
+- **FSE - Gestione dei consensi** (`FSE-Gestione-dei-consensi`);
+- **FSE - Servizio di gestione richieste** (`FSE-Servizio-di-gestione-richieste`);
+- **FSE - Servizio di visualizzazione campagne di screening e prevenzione (`FSE-Campagne-di-screening-e-prevenzione`);
+- **FSE - Servizio la mia storia clinica** (`FSE-Servizio-la-mia-storia-clinica`);
+- **FSE - Servizio per la visualizzazione delle deleghe** (`FSE-Servizio-per-la-visualizzazione-delle-deleghe`).
 
 Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e
 funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
 
-Attenzione: alcune funzionalità presenti nei file Figma (.fig) potrebbero non essere presenti e/o non corrette
-nei file .sketch convertiti utilizzando la versione più recente di [fig2sketch](https://github.com/sketch-hq/fig2sketch). È consigliato pertanto controllare sempre il risultato della conversione e dichiarare lo stato delle risorse e questa eventualità agli utenti.
+Attenzione: alcune funzionalità presenti nei file Figma (.fig) potrebbero non essere presenti e/o non corrette nei file .sketch convertiti utilizzando la versione più recente di [fig2sketch](https://github.com/sketch-hq/fig2sketch). È consigliato pertanto controllare sempre il risultato della conversione e dichiarare lo stato delle risorse e questa eventualità agli utenti.
 
 ## Come iniziare
 
@@ -46,5 +48,4 @@ I prototipi utilizzano componenti collegati a **UI Kit del Fascicolo Sanitario E
   - [Aggiungere una libreria in Figma](https://help.figma.com/hc/en-us/articles/1500008731201-Enable-or-disable-a-library-in-a-design-file)
 
 **Nota per gli account Figma gratuiti:**
-- Con un account Figma gratuito, non è possibile collegare le librerie direttamente. Tuttavia, puoi accedere
-agli elementi aprendo i file `FSE-Libreria-componenti` e `UI-Kit-Italia` e copiando manualmente i componenti nel tuo progetto.
+- Con un account Figma gratuito, non è possibile collegare le librerie direttamente. Tuttavia, puoi accedere agli elementi aprendo i file `FSE-Libreria-componenti` e `UI-Kit-Italia` e copiando manualmente i componenti nel tuo progetto.
