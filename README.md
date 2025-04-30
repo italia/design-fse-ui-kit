@@ -16,9 +16,12 @@ Il repository contiene le seguenti risorse:
 - **FSE - Servizio di visualizzazione campagne di screening e prevenzione** (`FSE-Campagne-di-screening-e-prevenzione`);
 - **FSE - Servizio la mia storia clinica** (`FSE-Servizio-la-mia-storia-clinica`);
 - **FSE - Servizio per la visualizzazione delle deleghe** (`FSE-Servizio-per-la-visualizzazione-delle-deleghe`).
+- **FSE - Servizi per i miei percorsi di cura** (`FSE-Servizi-per-i-miei-percorsi-di-cura´);
+- **FSE - Gestione del taccuino personale** (`FSE-Gestione-del-taccuino-personale`);
+- **FSE - Servizi di patient empowerment** (`FSE-Servizi-di-patient-empowerment`);
+- **FSE - Servizi di variazione della posizione del cittadino rispetto al SSN** (`FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN`).
 
-Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e
-funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
+Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
 
 Attenzione: alcune funzionalità presenti nei file Figma (.fig) potrebbero non essere presenti e/o non corrette nei file .sketch convertiti utilizzando la versione più recente di [fig2sketch](https://github.com/sketch-hq/fig2sketch). È consigliato pertanto controllare sempre il risultato della conversione e dichiarare lo stato delle risorse e questa eventualità agli utenti.
 
