@@ -9,10 +9,13 @@ jobs:
   fig2sketch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: main
+          lfs: true
+      - name: Checkout LFS objects
+        run: git lfs checkout
       - name: Fixup git permissions
         shell: bash
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
