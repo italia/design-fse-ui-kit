@@ -19,7 +19,7 @@ Il repository contiene le seguenti risorse:
 - **FSE - Servizi per i miei percorsi di cura** (`FSE-Servizi-per-i-miei-percorsi-di-cura´);
 - **FSE - Gestione del taccuino personale** (`FSE-Gestione-del-taccuino-personale`);
 - **FSE - Servizi di patient empowerment** (`FSE-Servizi-di-patient-empowerment`);
-- **FSE - Servizi di variazione della posizione del cittadino rispetto al SSN (`FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN`).
+- **FSE - Servizi di variazione della posizione del cittadino rispetto al SSN** (`FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN`).
 
 Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
 
