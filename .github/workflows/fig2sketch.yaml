@@ -25,8 +25,8 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - uses: italia/figma-to-sketch-action@v1.0.0 # https://github.com/italia/figma-to-sketch-action
         with:
-          files: 'FSE-Prototipo-di-base.fig|FSE-Gestione-dei-consensi.fig|FSE-Servizio-di-gestione-richieste.fig|FSE-Campagne-di-screening-e-prevenzione.fig|FSE-Servizio-la-mia-storia-clinica.fig|FSE-Servizio-per-la-visualizzazione-delle-deleghe.fig|FSE-Libreria-componenti.fig' # File di input .fig (Figma) separati da `|`
-          output_files: 'FSE-Prototipo-di-base.sketch|FSE-Gestione-dei-consensi.sketch|FSE-Servizio-di-gestione-richieste.sketch|FSE-Campagne-di-screening-e-prevenzione.sketch|FSE-Servizio-la-mia-storia-clinica.sketch|FSE-Servizio-per-la-visualizzazione-delle-deleghe.sketch|FSE-Libreria-componenti.sketch' # File di output .sketch (Sketch) risultanti separati da `|`
+          files: 'FSE-Prototipo-di-base.fig|FSE-Gestione-dei-consensi.fig|FSE-Servizio-di-gestione-richieste.fig|FSE-Campagne-di-screening-e-prevenzione.fig|FSE-Servizio-la-mia-storia-clinica.fig|FSE-Servizio-per-la-visualizzazione-delle-deleghe.fig|FSE-Servizi-per-i-miei-percorsi-di-cura.fig|FSE-Gestione-del-taccuino-personale.fig|FSE-Servizi-di-patient-empowerment.fig|FSE-Servizi-di-variazione–della-posizione-del-cittadino-rispetto-al-SSN.fig|FSE-Libreria-componenti.fig' # File di input .fig (Figma) separati da `|`
+          output_files: 'FSE-Prototipo-di-base.sketch|FSE-Gestione-dei-consensi.sketch|FSE-Servizio-di-gestione-richieste.sketch|FSE-Campagne-di-screening-e-prevenzione.sketch|FSE-Servizio-la-mia-storia-clinica.sketch|FSE-Servizio-per-la-visualizzazione-delle-deleghe.sketch|FSE-Servizi-per-i-miei-percorsi-di-cura.sketch|FSE-Gestione-del-taccuino-personale.sketch|FSE-Servizi-di-patient-empowerment.sketch|FSE-Servizi-di-variazione–della-posizione-del-cittadino-rispetto-al-SSN.sketch|FSE-Libreria-componenti.sketch' # File di output .sketch (Sketch) risultanti separati da `|`
       - uses: ncipollo/release-action@v1
         with:
           artifacts: '*.fig,*.sketch'
