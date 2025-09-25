@@ -1,0 +1,44 @@
+name: New release
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: nucypher/rust-python:3.12.11
+      options: --user root
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Fixup git permissions
+        # https://github.com/actions/checkout/issues/766
+        shell: bash
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - name: Install unzip
+        run: apt install unzip
+      - name: Download Figma zip
+        shell: bash
+        run: wget "https://drive.usercontent.google.com/download?id=1R8I9ZbFMoxaggY4NEt6ZD2iY7dTiIV_X&export=download" -O files.zip && ls -l && unzip ./files.zip && mv files source
+      - name: Install dependencies
+        shell: bash
+        run: pip3 install "fig2sketch[fast]" && pip3 install certifi
+      - name: Start conversion
+        shell: bash
+        run: wget "https://raw.githubusercontent.com/astagi/fig2sketch-srv/refs/heads/main/convert.py" -O convert.py && python convert.py
+      - name: Show converted Sketch files
+        shell: bash
+        run: ls -l dist
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: './source/*.fig,./dist/*.sketch'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          draft: true
+          tag: 'latest-draft'
