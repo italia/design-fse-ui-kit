@@ -28,7 +28,7 @@ jobs:
         shell: bash
         env:
           RELEASE_ZIP_URL: ${{ secrets.RELEASE_ZIP_URL }}
-        run: wget "$RELEASE_ZIP_URL" -O files.zip && ls -l && unzip -n ./files.zip && mv files source && rm -rf source/__MACOSX
+        run: wget "$RELEASE_ZIP_URL" -O files.zip && ls -l && unzip -n ./files.zip && mv files source && rm -rf source/__MACOSX && rm -rf ./files.zip
       - name: Install dependencies
         shell: bash
         run: pip3 install "fig2sketch[fast]" && pip3 install certifi
