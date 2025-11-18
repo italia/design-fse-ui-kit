@@ -27,7 +27,7 @@ jobs:
       - name: Download Figma zip
         shell: bash
         env:
-          SUPER_SECRET: ${{ secrets.RELEASE_ZIP_URL }}
+          RELEASE_ZIP_URL: ${{ secrets.RELEASE_ZIP_URL }}
         run: wget "$RELEASE_ZIP_URL" -O files.zip && ls -l && unzip -n ./files.zip && mv files source && rm -rf source/__MACOSX
       - name: Install dependencies
         shell: bash
