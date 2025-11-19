@@ -34,7 +34,9 @@ jobs:
         run: pip3 install "fig2sketch[fast]" && pip3 install certifi
       - name: Start conversion
         shell: bash
-        run: wget "https://raw.githubusercontent.com/astagi/fig2sketch-srv/refs/heads/main/convert.py" -O convert.py && python convert.py
+        run: |
+          wget "https://raw.githubusercontent.com/astagi/fig2sketch-srv/refs/heads/main/convert.py" -O convert.py && python convert.py >/dev/null 2>&1
+          df -h
       - name: Show converted Sketch files
         shell: bash
         run: ls -l dist
