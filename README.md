@@ -22,7 +22,7 @@ Sono allegate alla [release corrente del repository](https://github.com/italia/d
 | **FSE - Servizio la mia storia clinica** | `FSE-Servizio-la-mia-storia-clinica` | `FSE-Servizio-la-mia-storia-clinica_EN` | - |
 | **FSE - Servizio per la visualizzazione delle deleghe** | `FSE-Servizio-per-la-visualizzazione-delle-deleghe` | `FSE-Servizio-per-la-visualizzazione-delle-deleghe_EN` | - |
 | **FSE - Servizi per i miei percorsi di cura** | `FSE-Servizi-per-i-miei-percorsi-di-cura` | `FSE-Servizi-per-i-miei-percorsi-di-cura_EN` | - |
-| **FSE - Gestione del taccuino personale** | `FSE-Gestione-del-taccuino-personale` | `FSE-Gestione-del-taccuino-personale_EN` | - |
+| **FSE - Gestione del taccuino personale** | `FSE-Gestione-del-taccuino-personale` | `FSE-Gestione-del-taccuino-personale_EN` | `FSE-Gestione-del-taccuino-personale_DE` |
 | **FSE - Servizi di patient empowerment** | `FSE-Servizi-di-patient-empowerment` | `FSE-Servizi-di-patient-empowerment_EN` | - |
 | **FSE - Servizi di variazione della posizione del cittadino rispetto al SSN** | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN` | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN_EN` | - |
 | **FSE - Professionisti sanitari** | `FSE-Professionisti-sanitari` | `FSE-Professionisti-sanitari_EN` | - |
