@@ -25,7 +25,7 @@ Sono allegate alla [release corrente del repository](https://github.com/italia/d
 | **FSE - Gestione del taccuino personale** | `FSE-Gestione-del-taccuino-personale` | `FSE-Gestione-del-taccuino-personale_EN` | - |
 | **FSE - Servizi di patient empowerment** | `FSE-Servizi-di-patient-empowerment` | `FSE-Servizi-di-patient-empowerment_EN` | - |
 | **FSE - Servizi di variazione della posizione del cittadino rispetto al SSN** | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN` | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN_EN` | - |
-| **FSE - Professionisti sanitari** | `FSE-Professionisti-sanitari` | FSE-Professionisti-sanitari_EN | - |
+| **FSE - Professionisti sanitari** | `FSE-Professionisti-sanitari` | `FSE-Professionisti-sanitari_EN` | - |
 
 Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
 
