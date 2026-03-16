@@ -8,7 +8,7 @@
 
 ## Descrizione
 
-Questo repository contiene i file dei **prototipi** del Fascicolo Sanitario Elettronico, con relativo **UI Kit del Fascicolo Sanitario Elettronico** realizzato per la progettazione delle schermate.
+Questo repository contiene i file dei **prototipi** del Fascicolo Sanitario Elettronico, con relativo **UI Kit del Fascicolo Sanitario Elettronico** realizzato per la progettazione delle schermate. Per i prototipi dell'Ecosistema Dati Sanitari (EDS) del Fascicolo Sanitario Elettronico si rimanda al repository ufficiale [italia/design-fse-eds-ui-kit](https://github.com/italia/design-fse-eds-ui-kit/).
 
 Sono allegate alla [release corrente del repository](https://github.com/italia/design-fse-ui-kit/releases) le seguenti risorse:
 
