@@ -15,17 +15,17 @@ Sono allegate alla [release corrente del repository](https://github.com/italia/d
 | Risorsa | Italiano (Default) | Inglese | Tedesco |
 |---|-|-|-|
 | **UI Kit del Fascicolo Sanitario Elettronico** | `FSE-Libreria-componenti` | - | - |
-| **FSE - Prototipo di base** | `FSE-Prototipo-di-base` | `FSE-Prototipo-di-base_EN` | - |
 | **FSE - Gestione dei consensi** | `FSE-Gestione-dei-consensi` | `FSE-Gestione-dei-consensi_EN` | `FSE-Gestione-dei-consensi_DE` |
+| **FSE - Gestione del taccuino personale** | `FSE-Gestione-del-taccuino-personale` | `FSE-Gestione-del-taccuino-personale_EN` | `FSE-Gestione-del-taccuino-personale_DE` |
+| **FSE - Professionisti sanitari** | `FSE-Professionisti-sanitari` | `FSE-Professionisti-sanitari_EN` | - |
+| **FSE - Prototipo di base** | `FSE-Prototipo-di-base` | `FSE-Prototipo-di-base_EN` | - |
+| **FSE - Servizi di patient empowerment** | `FSE-Servizi-di-patient-empowerment` | `FSE-Servizi-di-patient-empowerment_EN` | - |
+| **FSE - Servizi di variazione della posizione del cittadino rispetto al SSN** | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN` | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN_EN` | - |
+| **FSE - Servizi per i miei percorsi di cura** | `FSE-Servizi-per-i-miei-percorsi-di-cura` | `FSE-Servizi-per-i-miei-percorsi-di-cura_EN` | - |
 | **FSE - Servizio di gestione richieste** | `FSE-Servizio-di-gestione-richieste` | `FSE-Servizio-di-gestione-richieste_EN` | - |
 | **FSE - Servizio di visualizzazione campagne di screening e prevenzione** | `FSE-Campagne-di-screening-e-prevenzione` | `FSE-Campagne-di-screening-e-prevenzione_EN` | - |
 | **FSE - Servizio la mia storia clinica** | `FSE-Servizio-la-mia-storia-clinica` | `FSE-Servizio-la-mia-storia-clinica_EN` | - |
 | **FSE - Servizio per la visualizzazione delle deleghe** | `FSE-Servizio-per-la-visualizzazione-delle-deleghe` | `FSE-Servizio-per-la-visualizzazione-delle-deleghe_EN` | - |
-| **FSE - Servizi per i miei percorsi di cura** | `FSE-Servizi-per-i-miei-percorsi-di-cura` | `FSE-Servizi-per-i-miei-percorsi-di-cura_EN` | - |
-| **FSE - Gestione del taccuino personale** | `FSE-Gestione-del-taccuino-personale` | `FSE-Gestione-del-taccuino-personale_EN` | `FSE-Gestione-del-taccuino-personale_DE` |
-| **FSE - Servizi di patient empowerment** | `FSE-Servizi-di-patient-empowerment` | `FSE-Servizi-di-patient-empowerment_EN` | - |
-| **FSE - Servizi di variazione della posizione del cittadino rispetto al SSN** | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN` | `FSE-Servizi-di-variazione-della-posizione-del-cittadino-rispetto-al-SSN_EN` | - |
-| **FSE - Professionisti sanitari** | `FSE-Professionisti-sanitari` | `FSE-Professionisti-sanitari_EN` | - |
 
 Questi file, disponibili sia per Figma e Sketch, forniscono un quadro chiaro di come dovrebbe apparire e funzionare il sito web del Fascicolo Sanitario Elettronico e le relative funzionalità.
 
